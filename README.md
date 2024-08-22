@@ -109,12 +109,13 @@ More information for a lot of parameters here below.
 ## List of implemented accessories and function
 
 Home App Device     | Plugin type   | get        | set | range | Online | Low <br>Battery | Special
-------------------- | ------------- | ---------- | --- | ----- | ------ | --------------- | -------
+------------------- |---------------| ---------- | --- | ----- | ------ | --------------- | -------
 Switch (default)    | `switch`      | O/I        | O/I | -     | yes    | yes             | -
 Light Bulb          | `light`       | O/I        | O/I | -     | yes    | yes             | -
 Dimmer              | `dimmer`      | value      | yes | yes   | yes    | no              | -
 Outlet              | `outlet`      | O/I        | O/I | -     | yes    | no              | In Use<br>Eve
 Temperature Sensor  | `temperature` | Value      | no  | yes   | yes    | yes             | -
+Humidity Sensor     | `humidity`    | Value      | no  | yes   | yes    | yes             | -
 Light Sensor        | `ambient`     | Value      | no  | yes   | yes    | yes             | -
 Motion Sensor       | `motion`      | Value      | no  | -     | yes    | yes             | -
 Contact Sensor      | `contact`     | Value      | no  | -     | yes    | yes             | -
